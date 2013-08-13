@@ -2,6 +2,11 @@ import unittest
 from should_dsl import should, should_not
 
 class TestShoulddslExamples(unittest.TestCase):
+    """
+    A couple links which helped in writing these examples.
+    http://www.should-dsl.info/
+    http://pythonhosted.org/should_dsl/available_matchers.html
+    """
     def test_boolean(self):
         c = True
         c |should| be(True)
