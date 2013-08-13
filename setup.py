@@ -17,10 +17,10 @@ setup(name='MatcherCompare',
       include_package_data=True,
       zip_safe=True,
       install_requires=[
-          pyHamcrest,
-          pyshould,
-          should-dsl,
-          sure
+          "pyHamcrest",
+          "pyshould",
+          "should-dsl",
+          "sure"
       ],
       entry_points="""
       # -*- Entry points: -*-
