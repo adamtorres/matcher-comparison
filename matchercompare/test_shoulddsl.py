@@ -14,8 +14,8 @@ class TestShoulddslExamples(unittest.TestCase):
     def test_numbers(self):
         e = 4.2
         e |should| be(4.2)
-        (e+1) |should| be(5.2)
-        e |should| be_greater_than(4)
+        (e+1) |should| equal_to(5.2)
+		#e |should| be_greater_than(4)
         e |should| be_greater_than_or_equal_to(4.2)
         e |should| be_less_than(5)
         e |should| be_less_than_or_equal_to(4.2)
